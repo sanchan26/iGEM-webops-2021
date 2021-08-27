@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.center{
+    margin-top:10px;
+    text-align: center;
+    color: #00B859;
+    font-family:Oswald;
+    font-size:180%;
+}
+
+.Footer-main {
+    /*height: 60vh;*/
+    width:100;
+    display: flex;
+    flex-direction: column;
+    /*border: 5px solid red;*/
+    padding-top: 5px;
+    color:  #F5F5F5;
+    font-family:Raleway ;
+    font-size: 18px;
+    background-color:  #131313 ;
+}
+
+.Footer-container1 {
+    width:96%;
+    position: relative;
+    top:10%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*border: 1px solid red;*/
+}
+
+.Address {
+    line-height: 2em;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+
+.Contact-no {
+    line-height: 1.75em;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid red;*/
+}
+
+.Social-media {
+    width:40%;
+    /*border: 1px solid red;*/
+    padding: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.FacebookIcon:hover {
+    cursor: pointer;
+}
+.copyrights{
+    text-align: center;
+    font-size: 15px;
+    color: #F5F5F5;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Footer-main {
+        /*height: 120vh;*/
+        width:100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*border: 5px solid red;*/
+        padding-top: 5px;
+        color:  #F5F5F5;
+        font-family:Raleway ;
+        font-size: 18px;
+        background-color:  #222930 ;
+    }
+
+    .Footer-container1 {
+        width:96%;
+        height: 70%;
+        
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        /*border: 1px solid green;*/
+    }
+
+    .Address {
+        line-height: 2em;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px auto;
+        /*border: 1px solid red;*/
+}
+
+.Contact-no {
+    line-height: 1.75em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    /*border: 1px solid red;*/
+}
+
+.Social-media {
+    width:90%;
+    /*border: 1px solid red;*/
+    padding: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.copyrights{
+    text-align: center;
+    font-size: 15px;
+    color: #F5F5F5;
+    margin-bottom: 18px;
+    /*border: 1px solid red;*/
+}
+
+}

@@ -14,6 +14,11 @@ function Navbar() {
                 <Link to="#" className='menu-bars'>
                     <FaBars color = '#fff' onClick={showSidebar}/>
                 </Link>
+                
+                <div className = 'logo'>
+                </div>
+                 
+                
             </div>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul onClick={showSidebar} className='nav-menu-items'>

@@ -1,0 +1,9 @@
+.widdy {
+    width: 36vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .widdy {
+        width: 70vw;
+    }
+  }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#010101;stroke:#010101;stroke-width:30.5285;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#2F868A;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:40;}
+	.st4{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:20;stroke-linejoin:round;}
+	.st5{fill:#20B35A;stroke:#2F868A;stroke-width:10;stroke-linejoin:round;}
+</style>
+<ellipse id="path888" class="st0" cx="292.25" cy="321.77" rx="254.57" ry="254.21"/>
+<g id="g1822" transform="translate(81.421825,558.40412)">
+	<path id="path4" class="st1" d="M445.03-231.67c0,85.16-44.6,163.75-117.1,206.33l26.02,45.86c88.53-52,143.12-148.2,143.12-252.19
+		H445.03z"/>
+	<path id="path6" class="st2" d="M88.85-16.74L72.58,11.92c85.52,50.23,190.97,50.23,276.49,0l-16.26-28.66
+		C257.3,27.61,164.35,27.61,88.85-16.74z"/>
+	<path id="path8" class="st1" d="M-75.42-231.67c0,103.99,54.6,200.19,143.12,252.19l26.02-45.86
+		c-72.5-42.58-117.1-121.17-117.1-206.33H-75.42z"/>
+	<path id="path10" class="st2" d="M72.58-475.27C-12.94-425.03-65.66-332.14-65.66-231.67h32.53c0-88.69,46.48-170.59,121.98-214.93
+		L72.58-475.27z"/>
+	<path id="path12" class="st3" d="M80.71-460.94c80.51-47.29,179.71-47.29,260.22,0"/>
+	<path id="path14" class="st2" d="M349.07-475.27l-16.26,28.66c75.5,44.35,121.98,126.24,121.98,214.93h32.53
+		C487.31-332.14,434.59-425.03,349.07-475.27z"/>
+	<polygon id="polygon16" class="st4" points="28.67,-148.94 392.98,-148.94 210.83,-43.05 	"/>
+	<polygon id="polygon18" class="st5" points="210.83,-407.06 132.76,-248.22 210.83,-182.04 288.89,-248.22 	"/>
+	<path id="polygon18-8" class="st2" d="M210.83-189.98l70.26-59.57L210.83-392.5l-70.26,142.96L210.83-189.98z"/>
+</g>
+</svg>

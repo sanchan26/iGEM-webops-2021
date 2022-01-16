@@ -1,7 +1,3 @@
-
-import React from 'react';
-import {FaHome} from 'react-icons/fa'
-
 export const SidebarData = [
     {
         title: 'Home',
@@ -21,9 +17,14 @@ export const SidebarData = [
         path: '/projects',
         cName: 'nav-text'
     }, 
+    // {
+    //     title: 'Gallery',
+    //     path: '/gallery',
+    //     cName: 'nav-text'
+    // },
     {
-        title: 'Gallery',
-        path: '/gallery',
+        title: 'Outreach',
+        path: '/collab',
         cName: 'nav-text'
     }
 ]

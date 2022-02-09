@@ -51,7 +51,7 @@ export const CollabData =  {
         description: `At the peak of the covid-19 pandemic, we witnessed a huge surge in almost everything being delivered home- from essentials to box office releases!!
         Culturing bacteria, extracting DNA from plant leaves and observing the microworld with a microscope- these cool techniques were also delivered home to the student community in IIT-madras who participated in the workshop conducted by the iGEM team in association with Cambrionics, an edu-tech startup.   `,
        
-        sitelink: "https://2010.igem.org/Team:IIT_Madras#click",
+        sitelink: "https://www.cambrionics.com/",
         imagepath: [
             Camb_1,
             Camb_2,
@@ -73,7 +73,7 @@ export const CollabData =  {
         ]
     },
     collab5: {
-        title: 'University of Rochester - Dance collaboration ',
+        title: 'University of Rochester - BITS Goa Dance collaboration ',
         description: `Our collaboration included a series of movements using different styles of dance to express the different stages that could possibly describe the process of Covid-19 affecting one's life, from being happy and healthy to suffering and pain. This collaboration started as a way to explore the methods of having a movement collaboration and promoting diversity while being socially distanced and constrained to online platforms.`,
         sitelink: "https://2020.igem.org/Team:Rochester/Inclusion",
         imagepath: [

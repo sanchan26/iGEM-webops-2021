@@ -42,7 +42,7 @@ function Team() {
           <div className="line"></div>
           <div className="Space"></div>
           <div className="row">
-            <div className="column" height="400px">
+            <div className="column Sp" height="400px">
               <img src={Head1} alt="" />
               <div className="Space"></div>
               <h3>GAYATHRI PRAKASH</h3>
@@ -69,6 +69,7 @@ function Team() {
                 making those cool projects possible!
               </p>
             </div>
+            
             <div className="column offset-md-2">
               <div className="vertical_line"></div>
               <img src={Head2} alt="" />

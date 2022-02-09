@@ -14,7 +14,7 @@ function Footer() {
                 <div className="Footer-container1">
                     <div className="Address">
                         <br/>
-                        <p>Department of Biotechnology, IIT Madras, Indian Institute of Technology, Sardar Patel Road , Chennai, India-600036</p>
+                        <p>iGEM IIT Madras, <br></br> Department of Biotechnology, <br></br>IIT Madras, Indian Institute of Technology, Sardar Patel Road , Chennai, India-600036</p>
                     </div>
                     
                     

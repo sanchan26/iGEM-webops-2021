@@ -10,13 +10,16 @@ import Asset2 from '../images/Asset 2.png'
 import Asset3 from '../images/Asset 3.png'
 import Asset4 from '../images/Asset 4.jpg'
 import Asset5 from '../images/Asset 5.png'
-import Asset6 from '../images/Asset 6.png'
+import Asset6 from '../images/Asset 6.jfif'
 import Asset7 from '../images/Asset 7.png'
 import Asset8 from '../images/Asset 8.png'
-import Asset9 from '../images/Asset 9.png'
-import Asset10 from '../images/Asset 10.png'
-import Asset11 from '../images/Asset 11.png'
-import { Parallax } from 'react-parallax'
+import Asset9 from '../images/Snap.jfif'
+import Asset10 from '../images/Asset 10.jpg'
+import Asset11 from '../images/Asset 11.jfif'
+import Asset12 from '../images/Asset 12.png'
+import Asset13 from '../images/Asset 13.png'
+import Asset14 from '../images/Asset 14.png'
+// import { Parallax } from 'react-parallax'
 import theme from "../components/theme"
 import { Grid, GridItem } from '@chakra-ui/react'
 
@@ -57,8 +60,6 @@ function Home() {
                 <br></br>
                 The team also envisions to communicate to people of diverse backgrounds about the emerging and ever growing field of synthetic biology. One of our flagship initiative is the language project, explaining synbio concepts in several indian and foreign languages.
                 <br></br>
-                <br></br>
-                The iGEM team conducts regular workshops that aims to provide hands-on experience on laboratory techniques and exposing students to the recent advancements in biology, highlighting the interdisciplinary nature of the field.
 
                 </Text>
             </Box>
@@ -99,7 +100,7 @@ function Home() {
                  "To provide a platform for accelerating the growth of biotechnology for a healthier future."
             </Text> */}
 
-            <Text textAlign= 'center' fontSize = {[40,50]} color = {green} marginTop='35px' marginBottom= "20px" fontWeight = 'bold' fontFamily = {heading}> Sponsors </Text>
+            <Text textAlign= 'center' fontSize = {[40,50]} color = {green} marginTop='50px' marginBottom= "20px" fontWeight = 'bold' fontFamily = {heading}> Sponsors </Text>
 
             {/* <Flex flexDirection = 'column' h='120vh' w='80vw' margin = 'auto' p='2.25rem' justifyContent= 'space-between'>
                 <Flex flexDirection = 'row' h = '30vh' justifyContent= 'space-between'>
@@ -139,55 +140,68 @@ function Home() {
             </Flex> */}
             
             <Grid
-  h='120vh'
+  
   w = '90vw'
   margin = 'auto'
+  marginBottom= '10vh'
   padding = 'auto'
-  templateRows={['repeat(5, 1fr)','repeat(3, 1fr)']}
+  templateRows={['repeat(7, 1fr)','repeat(5, 1fr)']}
   templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)']}
-  gap={1}
+  gap={[10,5]}
 //   bg = 'black'
   alignItems= 'center'
   justifyItems='center'
 >
-  <GridItem rowSpan={1} colSpan={1}  boxSize={['70px', '200px']}>
-  <Image src= {Asset2}  alt = 'Error' boxSize={['90px', '200px']}>
+  <GridItem rowSpan={1} colSpan={1}  >
+  <Image src= {Asset2}  alt = 'Error' width = {['100px','180px']}>
   </Image>
   </GridItem>
   <GridItem colSpan={1}   >
-  <Image src= {Asset3}  alt = 'Error' boxSize={['90px', '200px']}>
+  <Image src= {Asset3}  alt = 'Error' width = {['100px','200px']}>
   </Image>
   </GridItem>
-  <GridItem colSpan={1}  boxSize={['90px', '200px']} >
-  <Image src= {Asset4}  alt = 'Error' boxSize={['90px', '200px']}>
+  <GridItem colSpan={1}   >
+  <Image src= {Asset4}  alt = 'Error' width = {['100px','200px']}>
   </Image>
   </GridItem>
-  <GridItem colSpan={1} rowSpan={1} boxSize={['90px', '200px']} >
-  <Image src= {Asset5}  alt = 'Error' boxSize={['90px', '200px']}>
+  <GridItem colSpan={1} rowSpan={1}  >
+  <Image src= {Asset5}  alt = 'Error' width = {['100px','170px']}>
   </Image>
   </GridItem>
-  <GridItem rowSpan={1} boxSize={['90px', '200px']}>
-  <Image src= {Asset6}  alt = 'Error' boxSize={['90px', '180px']}>
+  <GridItem rowSpan={1} >
+  <Image src= {Asset6}  alt = 'Error' width = {['100px','200px']}>
   </Image>
   </GridItem>
-  <GridItem colSpan={1} boxSize={['90px', '200px']}>
-  <Image src= {Asset7}  alt = 'Error' boxSize={['90px', '200px']}>
+  <GridItem colSpan={1} >
+  <Image src= {Asset7}  alt = 'Error' width = {['100px','200px']}>
   </Image>
   </GridItem>
-  <GridItem colSpan={1} boxSize={['90px', '200px']} >
-  <Image src= {Asset8}  alt = 'Error' boxSize={['90px', '200px']}>
+  <GridItem colSpan={1}  >
+  <Image src= {Asset8}  alt = 'Error' width = {['100px','200px']}>
   </Image>
   </GridItem>
-  <GridItem colSpan={1} boxSize={['90px', '200px']}>
-  <Image src= {Asset9}  alt = 'Error' boxSize={['90px', '200px']}>
+  <GridItem colSpan={1} >
+  <Image src= {Asset9}  alt = 'Error' width = {['100px','200px']}>
   </Image>
   </GridItem>
-  {/* <GridItem rowSpan={1} colSpan={[1,2]} boxSize={['90px', '200px']}>
-  <Image src= {Asset10}  alt = 'Error' boxSize={['90px', '200px']}>
+  <GridItem  colSpan={[1,1]} >
+  <Image src= {Asset10}  alt = 'Error'  width = {['100px','200px']} >
   </Image>
-  </GridItem> */}
-  <GridItem rowSpan={1} colSpan={[1,1]} boxSize={['90px', '200px']}>
-  <Image src= {Asset11}  alt = 'Error' boxSize={['90px', '200px']}>
+  </GridItem>
+  <GridItem colSpan={[1,1]} >
+  <Image src= {Asset11}  alt = 'Error' width = {['100px','170px']}>
+  </Image>
+  </GridItem>
+  <GridItem colSpan={[1,1]} >
+  <Image src= {Asset12}  alt = 'Error' width = {['100px','200px']}>
+  </Image>
+  </GridItem>
+  <GridItem colSpan={[1,1]} >
+  <Image src= {Asset13}  alt = 'Error' width = {['100px','200px']}>
+  </Image>
+  </GridItem>
+  <GridItem colSpan={[1,3]} >
+  <Image src= {Asset14}  alt = 'Error' width = {['100px','200px']}>
   </Image>
   </GridItem>
   

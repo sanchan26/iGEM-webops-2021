@@ -134,6 +134,7 @@ h3 {
   .colsep {
     display: flex;
     flex-direction: row;
+    margin-left: -4%;
   }
   .colsep .cord .col-md-4 {
     -webkit-box-flex: none;
@@ -198,6 +199,7 @@ h3 {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    
   }
 
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -231,6 +233,7 @@ h3 {
   .firstrow {
     display: flex;
     flex-direction: row;
+    margin-left: -4%;
   }
   .cord {
     margin-left: 10%;
@@ -266,7 +269,7 @@ h3 {
   }
   .cord p {
     color: white;
-    font-size: 1.5vh;
+    font-size: 13px;
     max-width: 80%;
   }
   .col-md-8 {
@@ -367,7 +370,8 @@ h3 {
 }
 .h1 {
   text-align: center;
-  font-size: 12vw;
+  font-size: 7vw;
+  font-family: 'Oswald';
 }
 .Core p {
   font-size: 15px;
@@ -376,7 +380,7 @@ h3 {
   font-size: 4vw;
 }
 .Core {
-  padding: 0 10% 5% 5%;
+  padding: 0 8% 5% 9%;
   margin-top: -2.5%;
 }
 .square {
@@ -547,7 +551,20 @@ img {
 }
 
 .flip-box-back p {
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Raleway';
 }
 
+.flip-box-inner{
+  padding-left: 5% ;
+}
+
+.Sp {
+  margin-bottom: 5vh;
+}
+
+/* .vertical_line {
+  position: relative;
+  border-bottom: 0.5px solid white;
+  width: 80%;
+} */

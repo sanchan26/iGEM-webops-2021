@@ -26,7 +26,7 @@ import img2018_3 from '../images/2018_img3.png';
 import img2018_4 from '../images/2018_img4.png';
 import img2018_5 from '../images/2018_img5.png';
 import img2018_6 from '../images/2018_img6.png';
-import img2019_1 from '../images/2019_img1.png';
+import img2019_1 from '../images/2019_img1.jpeg';
 import img2019_2 from '../images/2019_img2.png';
 import img2019_3 from '../images/2019_img3.png';
 import img2019_4 from '../images/2019_img4.png';
@@ -38,6 +38,8 @@ import img2021_4 from '../images/2021_img4.png';
 import img2021_5 from '../images/2021_img5.png';
 import img2021_6 from '../images/2021_img6.png';
 import img2021_7 from '../images/2021_img7.png';
+import img2021_8 from '../images/2021_img8.png';
+import img2021_9 from '../images/2021_img9.png';
 import Camb_1 from '../images/Camb_1.png';
 import Camb_2 from '../images/Camb_2.png';
 import Camb_3 from '../images/Camb_3.png';
@@ -86,6 +88,8 @@ export {img2008_1, img2009_1,img2009_2,img2009_3,img2010_1, img2010_2,img2011_1,
     img2021_5,
     img2021_6,
     img2021_7,
+    img2021_8,
+    img2021_9,
     Camb_1,
     Camb_2,
     Camb_3,

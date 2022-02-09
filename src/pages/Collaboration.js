@@ -74,7 +74,7 @@ function Collab() {
                                                                 collabDescription: CollabData.collab5.description,            
                                                                 collablink: CollabData.collab5.sitelink,
                                                                 collabimage: CollabData.collab5.imagepath})} colorScheme="green" size="lg" variant="ghost">
-                            <Text color={green} fontSize = {['12px','18px']} fontWeight='bold'>University of Rochester</Text >
+                            <Text color={green} fontSize = {['12px','18px']} fontWeight='bold'>Accessibility Project</Text >
                         </Button>
                         <Button onClick = {() => setPageContent({collabTitle: CollabData.collab1.title,
                                                                 collabDescription: CollabData.collab1.description,
@@ -113,7 +113,7 @@ function Collab() {
                 bgRepeat="repeat">
                 <Flex margin = {['3px','15px']}  flexDirection = 'row' alignItems='center'>
                 <FaAngleRight color = {white} onClick = {sliderShow} fontSize = '50px' className="hovers"> </FaAngleRight>
-                <Button fontSize={['18px','27px']} color={green} fontFamily = {heading} onClick = {sliderShow} className="hovers" variant="outline"> All outreaches</Button>
+                <Button fontSize={['18px','27px']} color={green} fontFamily = {heading} onClick = {sliderShow} className="hovers" variant="outline"> All outreach Activities</Button>
                 </Flex>
                 
                     <Text color={white} fontWeight='bold'

@@ -9,12 +9,16 @@ function DemoCarousel(props) {
      const wide = props.wide
         return (
             <>
-            <Carousel showArrows = 'False' width = {wide} className = 'widdy'> 
+            <Carousel showArrows = 'False' width = {wide} className = 'widdy' infiniteLoop = 'True'
+            centerMode = 'True' centerSlidePercentage= '100' 
+            dynamicHeight = 'True' autoPlay = 'True' interval= '1400'
+
+            > 
                 {
                     pathimg.map( pathurl => 
                         
                         <div>
-                            <img src= {pathurl} alt= "" />
+                            <img src= {pathurl} className='change' alt= "" />
                             {/* <p className="legend"> kdkd</p> */}
                         </div>
                         
